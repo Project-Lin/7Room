@@ -111,7 +111,7 @@ PrefabInstance:
     - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: 'fsm.states.Array.data[5].actionData.actionEnabled.Array.data[2]'
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
