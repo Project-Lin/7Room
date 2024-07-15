@@ -15366,7 +15366,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 4
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []

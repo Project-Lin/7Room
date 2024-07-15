@@ -63,7 +63,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5035680800201461869}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -2446609215189336922}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -460,6 +461,43 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-2978902812285257719
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32fdc3fb1456147b2dde532e33bfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundFollowsObject: 1
+  RetriggerWhenStateLoops: 0
+  playEnterSound: 1
+  stopEnterSoundOnExit: 1
+  enterSoundGroup: oral_End_v03
+  enterVariationName: 
+  playExitSound: 0
+  exitSoundGroup: '[None]'
+  exitVariationName: 
+  playAnimTimeSound: 0
+  stopAnimTimeSoundOnExit: 0
+  useStopTime: 0
+  whenToStartSound: 0
+  whenToStopSound: 0
+  TimedSoundGroup: '[None]'
+  timedVariationName: 
+  playMultiAnimTimeSounds: 0
+  StopMultiAnimTimeSoundsOnExit: 0
+  numOfMultiSoundsToPlay: 0
+  whenToStartMultiSound1: 0
+  whenToStartMultiSound2: 0
+  whenToStartMultiSound3: 0
+  whenToStartMultiSound4: 0
+  MultiSoundsTimedGroup: '[None]'
+  multiTimedVariationName: 
 --- !u!1101 &-2474259818753113288
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -504,12 +542,49 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 307a66c59f40e0e42a169bc172b6e835, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1150faab1375b3d49a0aedd7ceb7c57c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &-2446609215189336922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32fdc3fb1456147b2dde532e33bfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundFollowsObject: 1
+  RetriggerWhenStateLoops: 0
+  playEnterSound: 1
+  stopEnterSoundOnExit: 1
+  enterSoundGroup: shy_v01
+  enterVariationName: 
+  playExitSound: 0
+  exitSoundGroup: '[None]'
+  exitVariationName: 
+  playAnimTimeSound: 0
+  stopAnimTimeSoundOnExit: 0
+  useStopTime: 0
+  whenToStartSound: 0
+  whenToStopSound: 0
+  TimedSoundGroup: '[None]'
+  timedVariationName: 
+  playMultiAnimTimeSounds: 0
+  StopMultiAnimTimeSoundsOnExit: 0
+  numOfMultiSoundsToPlay: 0
+  whenToStartMultiSound1: 0
+  whenToStartMultiSound2: 0
+  whenToStartMultiSound3: 0
+  whenToStartMultiSound4: 0
+  MultiSoundsTimedGroup: '[None]'
+  multiTimedVariationName: 
 --- !u!1101 &-2333698217141965111
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -544,7 +619,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7036554617858117624}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -19439231777256819}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -658,6 +734,43 @@ MonoBehaviour:
   playEnterSound: 1
   stopEnterSoundOnExit: 1
   enterSoundGroup: Fuck_Front_End_v02
+  enterVariationName: 
+  playExitSound: 0
+  exitSoundGroup: '[None]'
+  exitVariationName: 
+  playAnimTimeSound: 0
+  stopAnimTimeSoundOnExit: 0
+  useStopTime: 0
+  whenToStartSound: 0
+  whenToStopSound: 0
+  TimedSoundGroup: '[None]'
+  timedVariationName: 
+  playMultiAnimTimeSounds: 0
+  StopMultiAnimTimeSoundsOnExit: 0
+  numOfMultiSoundsToPlay: 0
+  whenToStartMultiSound1: 0
+  whenToStartMultiSound2: 0
+  whenToStartMultiSound3: 0
+  whenToStartMultiSound4: 0
+  MultiSoundsTimedGroup: '[None]'
+  multiTimedVariationName: 
+--- !u!114 &-19439231777256819
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32fdc3fb1456147b2dde532e33bfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundFollowsObject: 1
+  RetriggerWhenStateLoops: 0
+  playEnterSound: 1
+  stopEnterSoundOnExit: 1
+  enterSoundGroup: oral_End_v02
   enterVariationName: 
   playExitSound: 0
   exitSoundGroup: '[None]'
@@ -1125,7 +1238,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5244306133648252011}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -2978902812285257719}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
