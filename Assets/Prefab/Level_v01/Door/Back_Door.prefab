@@ -4560,6 +4560,9 @@ MonoBehaviour:
     - name: PlayAnimation
       isSystemEvent: 0
       isGlobal: 1
+    - name: NEW_Stop_Animation
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: NEW_AnimationDone
