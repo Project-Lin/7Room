@@ -1016,7 +1016,7 @@ PrefabInstance:
     - target: {fileID: 1675733241059188842, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 1675733241059188842, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1051,7 +1051,7 @@ PrefabInstance:
     - target: {fileID: 2081358472430590103, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 53.4
       objectReference: {fileID: 0}
     - target: {fileID: 2081358472430590103, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1081,7 +1081,7 @@ PrefabInstance:
     - target: {fileID: 2740251916499032156, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 2740251916499032156, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1111,7 +1111,7 @@ PrefabInstance:
     - target: {fileID: 3743008008573319392, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 3743008008573319392, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1146,7 +1146,7 @@ PrefabInstance:
     - target: {fileID: 5036891934592563827, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 5036891934592563827, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1176,7 +1176,7 @@ PrefabInstance:
     - target: {fileID: 5640121396118373006, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 53.4
       objectReference: {fileID: 0}
     - target: {fileID: 5640121396118373006, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1197,6 +1197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scenes_Currect 2 Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957559522593018053, guid: 34088c1aec54a3b4ea12d49959bfbd04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6477953619786680959, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1261,7 +1266,7 @@ PrefabInstance:
     - target: {fileID: 7013813217545331449, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 7013813217545331449, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -1291,7 +1296,7 @@ PrefabInstance:
     - target: {fileID: 8403875918334706245, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 13.4
       objectReference: {fileID: 0}
     - target: {fileID: 8403875918334706245, guid: 34088c1aec54a3b4ea12d49959bfbd04,
         type: 3}
@@ -5927,7 +5932,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: FSM
+    name: RandomLevle
     startState: State 1
     states:
     - name: State 1
@@ -6529,7 +6534,11 @@ MonoBehaviour:
         objectReferences:
         - {fileID: 2928969528033173566, guid: 3a889582371b1bf43b35985e18aa579a, type: 3}
         - {fileID: 2200146250394671830, guid: 7e6d964141ebe1d4e8517b7a9e9487ad, type: 3}
-        - {fileID: 2200146250394671830, guid: 7e6d964141ebe1d4e8517b7a9e9487ad, type: 3}
+        - {fileID: 4576175213319946268, guid: e01a8e83a1c4fee4ab7f5f3a2987022d, type: 3}
+        - {fileID: 5754247750958315323, guid: 4fb1ebf41c288cd44828fc4b4344c619, type: 3}
+        - {fileID: 2950943992361051627, guid: 138ba9bc3abc66a4aa67a8a08ff61846, type: 3}
+        - {fileID: 2417042190890442304, guid: 5b5490c68d3e2e0489e204e4ba8b4b33, type: 3}
+        - {fileID: 4223499207070165504, guid: e6c596bbee704ab418924b6c08464eba, type: 3}
       enumVariables: []
       categories:
       - 
