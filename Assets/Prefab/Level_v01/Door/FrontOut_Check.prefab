@@ -473,6 +473,9 @@ MonoBehaviour:
     - name: NEW_SetNumber
       isSystemEvent: 0
       isGlobal: 0
+    - name: NEW_Gril_spon
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: NEW_Sop_CheckOut
