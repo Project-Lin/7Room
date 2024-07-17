@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6bbc263dffee45a6068e3f02a825b, type: 3}
+  m_Name: SettingsCollection
+  m_EditorClassIdentifier: 
+  identifier: 
+  settings:
+  - applyImmediately: 1
+    identifier: title
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473495
+    inputElementProviderSettings:
+      rid: 4870461963580473496
+  - applyImmediately: 1
+    identifier: audio-enabled
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473497
+    inputElementProviderSettings:
+      rid: 4870461963580473498
+  - applyImmediately: 1
+    identifier: field-of-view
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473499
+    inputElementProviderSettings:
+      rid: 4870461963580473500
+  - applyImmediately: 1
+    identifier: 604a2374-9b0b-4175-88bc-46c6cb04d472
+    expanded: 0
+    overrideIdentifierWhenCopied: 1
+    setting:
+      rid: 4870461963580473501
+    inputElementProviderSettings:
+      rid: 4870461963580473502
+  - applyImmediately: 1
+    identifier: aniso
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473503
+    inputElementProviderSettings:
+      rid: 4870461963580473504
+  - applyImmediately: 1
+    identifier: screen-res
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473505
+    inputElementProviderSettings:
+      rid: 4870461963580473506
+  - applyImmediately: 1
+    identifier: reset
+    expanded: 0
+    overrideIdentifierWhenCopied: 0
+    setting:
+      rid: 4870461963580473507
+    inputElementProviderSettings:
+      rid: 4870461963580473508
+  settingsSaver: {fileID: 11400000, guid: 407d70fb8fdde5c46b2711c062ce65ed, type: 2}
+  inputTemplatesUIToolkit: {fileID: 0}
+  inputTemplatesUGUI: {fileID: 11400000, guid: 4533594711524bb4d83ede396b2cec8f, type: 2}
+  audioMixer: {fileID: 0}
+  postProcessProfile: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4870461963580473495
+      type: {class: Setting_Empty, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473496
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: Title
+        parentIdentifier: menu-title
+        addSpacer: 0
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473509
+        inputElementProvider_UGUI:
+          rid: 4870461963580473510
+    - rid: 4870461963580473497
+      type: {class: Setting_AudioEnabled, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data:
+        options:
+        - key: True
+          value: True
+        - key: False
+          value: False
+        defaultValue: 1
+        assignUnityValueAsDefault: 0
+    - rid: 4870461963580473498
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: 
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473511
+        inputElementProvider_UGUI:
+          rid: 4870461963580473512
+    - rid: 4870461963580473499
+      type: {class: Setting_FieldOfView, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data:
+        options:
+        - key: MIN_RANGE
+          value: 50
+        - key: MAX_RANGE
+          value: 100
+        - key: STEP_SIZE
+          value: 1
+        defaultValue: 60
+        assignUnityValueAsDefault: 0
+        cacheCamera: 0
+    - rid: 4870461963580473500
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: 
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473513
+        inputElementProvider_UGUI:
+          rid: 4870461963580473514
+    - rid: 4870461963580473501
+      type: {class: Setting_Empty, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473502
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: Headline
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473515
+        inputElementProvider_UGUI:
+          rid: 4870461963580473516
+    - rid: 4870461963580473503
+      type: {class: Setting_AnisotropicFiltering, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        options:
+        - key: Disable
+          value: Disabled
+        - key: Enable
+          value: Per Texture
+        - key: ForceEnable
+          value: Forced On
+        defaultValue: 2
+        assignUnityValueAsDefault: 0
+    - rid: 4870461963580473504
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: 
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473517
+        inputElementProvider_UGUI:
+          rid: 4870461963580473518
+    - rid: 4870461963580473505
+      type: {class: Setting_ScreenResolution, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473506
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: 
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473519
+        inputElementProvider_UGUI:
+          rid: 4870461963580473520
+    - rid: 4870461963580473507
+      type: {class: Setting_ResetToDefault, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473508
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: 
+        parentIdentifier: buttons-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 4870461963580473521
+        inputElementProvider_UGUI:
+          rid: 4870461963580473522
+    - rid: 4870461963580473509
+      type: {class: InputElementProvider_UIT_FromName_Title, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473510
+      type: {class: InputElementProvider_UGUI_FromName_Title, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473511
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473512
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473513
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473514
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473515
+      type: {class: InputElementProvider_UIT_FromName_Headline, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473516
+      type: {class: InputElementProvider_UGUI_FromName_Headline, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473517
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473518
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473519
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473520
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473521
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 4870461963580473522
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator,
+        asm: CitrioN.SettingsMenuCreator}
+      data: 

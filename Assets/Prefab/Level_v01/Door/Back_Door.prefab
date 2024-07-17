@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7275488160431027583}
   - component: {fileID: 6104228851025445712}
   - component: {fileID: 2600318299532414074}
+  - component: {fileID: 1561759784226192853}
   m_Layer: 0
   m_Name: Door_Touch_Range_Back
   m_TagString: Untagged
@@ -405,7 +406,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -422,8 +423,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerEnter: 1
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
@@ -441,7 +442,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &2600318299532414074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,7 +455,22 @@ MonoBehaviour:
   m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetFSMs: []
+  TargetFSMs:
+  - {fileID: 6104228851025445712}
+--- !u!114 &1561759784226192853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278750758198478252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6104228851025445712}
 --- !u!1 &1545050324909953901
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +922,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -942,7 +958,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1001 &2170853116324792755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1133,7 +1149,7 @@ PrefabInstance:
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
@@ -1596,7 +1612,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1632,7 +1648,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1001 &7060796968961162725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4947,7 +4963,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4983,7 +4999,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!111 &2051434063880169263
 Animation:
   m_ObjectHideFlags: 0
@@ -5203,7 +5219,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5239,7 +5255,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &8211342713044823816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8068073526183931155, guid: 4f212837541c475438b2227ecbe4f076,

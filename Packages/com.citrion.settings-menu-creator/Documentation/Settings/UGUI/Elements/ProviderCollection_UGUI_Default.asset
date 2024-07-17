@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017d7f9a94f86bb4c9010dcf42ebdc3a, type: 3}
+  m_Name: ProviderCollection_UGUI_Default
+  m_EditorClassIdentifier: 
+  relations:
+  - key: Void
+    value: {fileID: 11400000, guid: 8b61a207072892a4d83f8d33b0419730, type: 2}
+  - key: Boolean
+    value: {fileID: 11400000, guid: 1dd48aa219c05764082bfe9c65d363c5, type: 2}
+  - key: Int32
+    value: {fileID: 11400000, guid: 162cd57a089e6164e867486d3ffad73b, type: 2}
+  - key: Single
+    value: {fileID: 11400000, guid: e1929daa4c8019b4e860ecc6c56249b7, type: 2}
+  - key: String
+    value: {fileID: 11400000, guid: 162cd57a089e6164e867486d3ffad73b, type: 2}
+  - key: Enum
+    value: {fileID: 11400000, guid: be4852e81be3a424c99c055ab12f3d3c, type: 2}
+  - key: Button
+    value: {fileID: 11400000, guid: 8b61a207072892a4d83f8d33b0419730, type: 2}
+  - key: Toggle
+    value: {fileID: 11400000, guid: 1dd48aa219c05764082bfe9c65d363c5, type: 2}
+  - key: Slider Float
+    value: {fileID: 11400000, guid: e1929daa4c8019b4e860ecc6c56249b7, type: 2}
+  - key: Dropdown
+    value: {fileID: 11400000, guid: be4852e81be3a424c99c055ab12f3d3c, type: 2}
+  - key: Previous Next Selector
+    value: {fileID: 11400000, guid: 162cd57a089e6164e867486d3ffad73b, type: 2}
+  - key: Title
+    value: {fileID: 11400000, guid: a158082e673820642b61f74272cc9069, type: 2}
+  - key: Headline
+    value: {fileID: 11400000, guid: bdbb6b0c5e43aa04193db3e8bb973684, type: 2}
+  - key: Container
+    value: {fileID: 11400000, guid: 1d46b98e41174b942945a13a3b637638, type: 2}
+  - key: SerializedInputBinding
+    value: {fileID: 0}

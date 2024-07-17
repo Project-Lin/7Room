@@ -15,6 +15,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
       propertyPath: fsm.states.Array.data[9].name
       value: SetNumber
       objectReference: {fileID: 0}
@@ -277,7 +282,7 @@ PrefabInstance:
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
@@ -329,10 +334,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -27.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4968681151715133121, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600324020953675588, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6104228851025445712, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6104228851025445712, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: fsm.states.Array.data[0].actionData.fsmGameObjectParams.Array.data[0].name
       value: NEW_DeleteDoorRange1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204447045629392134, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7383163489674123790, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}

@@ -2626,7 +2626,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &5410847949527766283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9456,7 +9456,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &5667769486614416618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10531,7 +10531,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!95 &174185023292523565
 Animator:
   serializedVersion: 7
@@ -10869,7 +10869,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &3840819000462619977
 GameObject:
   m_ObjectHideFlags: 0
@@ -11668,6 +11668,8 @@ GameObject:
   - component: {fileID: 4141523033553109394}
   - component: {fileID: 6895858609059851280}
   - component: {fileID: 3596050286103113882}
+  - component: {fileID: 8031221471477987132}
+  - component: {fileID: 7620844177891681460}
   m_Layer: 0
   m_Name: Room_Spece_Check
   m_TagString: Untagged
@@ -12053,8 +12055,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerEnter: 1
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
@@ -12072,7 +12074,35 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &8031221471477987132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766538167569351858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3596050286103113882}
+--- !u!114 &7620844177891681460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766538167569351858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3596050286103113882}
 --- !u!1 &4887120209804774449
 GameObject:
   m_ObjectHideFlags: 0
@@ -13212,7 +13242,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &7528793436704090476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13532,7 +13562,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &2674851193065420545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13673,7 +13703,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &5012923878914691552
 GameObject:
   m_ObjectHideFlags: 0
@@ -13763,6 +13793,8 @@ GameObject:
   - component: {fileID: 4364094342753158685}
   - component: {fileID: 6436832480072015696}
   - component: {fileID: 13432485764423456}
+  - component: {fileID: 6152965540450755208}
+  - component: {fileID: 6132877140074653328}
   m_Layer: 0
   m_Name: Animation_area
   m_TagString: Untagged
@@ -14142,8 +14174,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerEnter: 1
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
@@ -14161,7 +14193,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &13432485764423456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14299,7 +14331,35 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &6152965540450755208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5415243648679633181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6436832480072015696}
+--- !u!114 &6132877140074653328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5415243648679633181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6436832480072015696}
 --- !u!1 &5555138613990339668
 GameObject:
   m_ObjectHideFlags: 0
@@ -14526,6 +14586,7 @@ GameObject:
   - component: {fileID: 2850955856882098465}
   - component: {fileID: 2890154658327252922}
   - component: {fileID: 63105107043376383}
+  - component: {fileID: 2111750275744190029}
   m_Layer: 0
   m_Name: EnderRoom_Check
   m_TagString: Untagged
@@ -15362,7 +15423,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -15381,7 +15442,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &2890154658327252922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15735,7 +15796,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -15754,7 +15815,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &63105107043376383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16206,7 +16267,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -16225,7 +16286,23 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &2111750275744190029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6241252467592192010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 2850955856882098465}
+  - {fileID: 2890154658327252922}
+  - {fileID: 63105107043376383}
 --- !u!1 &6296399575316659219
 GameObject:
   m_ObjectHideFlags: 0
@@ -17546,7 +17623,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &8172232707743081861
 GameObject:
   m_ObjectHideFlags: 0
@@ -17886,7 +17963,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &887364642958358900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32080,7 +32157,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!4 &194747304518125855 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2347037191865445792, guid: b52166d884715d74c8712a760f36d989,
@@ -33108,7 +33185,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &3076263646142609129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36882,6 +36959,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333027947928339882, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
       propertyPath: fsm.states.Array.data[19].transitions.Array.data[0].toState
       value: "\u72C0\u614B 17"
       objectReference: {fileID: 0}
@@ -36925,7 +37007,7 @@ PrefabInstance:
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
@@ -37032,6 +37114,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -235.19
       objectReference: {fileID: 0}
+    - target: {fileID: 4968681151715133121, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600324020953675588, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5788069382932589714, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -37055,6 +37147,16 @@ PrefabInstance:
     - target: {fileID: 5788069382932589714, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6104228851025445712, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204447045629392134, guid: 0055832a3b5cff8419b62686405a991d,
+        type: 3}
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7383163489674123790, guid: 0055832a3b5cff8419b62686405a991d,
@@ -37732,7 +37834,7 @@ PrefabInstance:
     - target: {fileID: 8424343609075467183, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8424343609075467183, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
@@ -40080,7 +40182,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!4 &5828153784484690248 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7498662125028830162, guid: 41ae20431fd17c24b9874c73fd7e1610,
@@ -40331,7 +40433,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &8808206392070212174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4410059163751573288, guid: 41ae20431fd17c24b9874c73fd7e1610,
@@ -40570,7 +40672,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1001 &5232394304634319954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41572,7 +41674,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1001 &6199629119892321632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44514,7 +44616,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &7161598306691180955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f4f07d2362d164640816e58cea2c6656,
@@ -44664,7 +44766,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!4 &7505472099275617057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4f07d2362d164640816e58cea2c6656,

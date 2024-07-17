@@ -7,6 +7,86 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.citrion.common": {
+      "version": "file:com.citrion.common",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "com.citrion.settings-menu-creator": {
+      "version": "file:com.citrion.settings-menu-creator",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.citrion.common": "1.0.1",
+        "com.citrion.ui": "1.0.1",
+        "com.citrion.ui.panels": "1.0.0",
+        "com.citrion.ui.images": "1.0.0",
+        "com.citrion.ui.components": "1.0.1",
+        "com.citrion.styleprofile": "1.0.1"
+      }
+    },
+    "com.citrion.settings-menu-creator.pro": {
+      "version": "file:com.citrion.settings-menu-creator.pro",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.citrion.common": "1.0.1",
+        "com.citrion.ui": "1.0.1",
+        "com.citrion.ui.panels": "1.0.0",
+        "com.citrion.ui.images": "1.0.0",
+        "com.citrion.ui.components": "1.0.1",
+        "com.citrion.styleprofile": "1.0.1",
+        "com.citrion.settings-menu-creator": "1.0.1"
+      }
+    },
+    "com.citrion.styleprofile": {
+      "version": "file:com.citrion.styleprofile",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.citrion.common": "1.0.1"
+      }
+    },
+    "com.citrion.ui": {
+      "version": "file:com.citrion.ui",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.citrion.common": "1.0.1",
+        "com.unity.textmeshpro": "3.0.6"
+      }
+    },
+    "com.citrion.ui.components": {
+      "version": "file:com.citrion.ui.components",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.citrion.common": "1.0.1",
+        "com.citrion.ui": "1.0.1",
+        "com.citrion.ui.images": "1.0.0"
+      }
+    },
+    "com.citrion.ui.images": {
+      "version": "file:com.citrion.ui.images",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.citrion.ui.panels": {
+      "version": "file:com.citrion.ui.panels",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.citrion.common": "1.0.0"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -134,6 +214,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem": {
+      "version": "1.7.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 2,
@@ -214,6 +303,14 @@
         "com.unity.settings-manager": "1.0.1"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.textmeshpro": {
+      "version": "5.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      }
     },
     "com.unity.timeline": {
       "version": "1.8.7",

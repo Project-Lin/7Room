@@ -501,7 +501,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &6737992278112067165
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +851,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4646975393403923608}
     m_Modifications:
+    - target: {fileID: 3432307823862277426, guid: 0e6fdec66c551074383e054a1b53c498,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5476856170717116525, guid: 0e6fdec66c551074383e054a1b53c498,
         type: 3}
       propertyPath: m_Name
@@ -997,6 +1002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741437362927603129, guid: bb4dfdeb3f4acf2468ad284e483b51f6,
         type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741437362927603129, guid: bb4dfdeb3f4acf2468ad284e483b51f6,
+        type: 3}
       propertyPath: fsm.states.Array.data[3].actionData.fsmGameObjectParams.Array.data[1].value
       value: 
       objectReference: {fileID: 5419677340024321570}
@@ -1117,6 +1127,11 @@ PrefabInstance:
     - target: {fileID: 3252557363755599653, guid: bb4dfdeb3f4acf2468ad284e483b51f6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741437362927603129, guid: bb4dfdeb3f4acf2468ad284e483b51f6,
+        type: 3}
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5741437362927603129, guid: bb4dfdeb3f4acf2468ad284e483b51f6,
@@ -1826,7 +1841,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &2659971213565891288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7142141366203783595, guid: d95bf88fa5647da43b9aa3af157f280c,
@@ -2333,7 +2348,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &6319807099842065000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8051432209585997541, guid: d95bf88fa5647da43b9aa3af157f280c,
@@ -2618,7 +2633,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &8074282230709193291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4033671562992582968, guid: d95bf88fa5647da43b9aa3af157f280c,
