@@ -2698,6 +2698,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3268706518556337665}
   - component: {fileID: 650203320247270069}
+  - component: {fileID: 5501391486789613865}
+  - component: {fileID: 5157343963137783417}
   m_Layer: 0
   m_Name: Animation_control
   m_TagString: Untagged
@@ -3691,7 +3693,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -3713,12 +3715,41 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &5501391486789613865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3500165970285619894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 650203320247270069}
+--- !u!114 &5157343963137783417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3500165970285619894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e95858e6f8c0844ad340be6bba1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFsms:
+  - {fileID: 650203320247270069}
+  button: {fileID: 0}
 --- !u!1 &3553533353744462534
 GameObject:
   m_ObjectHideFlags: 0
@@ -4515,6 +4546,7 @@ GameObject:
   - component: {fileID: 3260601142872161961}
   - component: {fileID: 538211466935546329}
   - component: {fileID: 5568343666390890892}
+  - component: {fileID: 8211202199130016067}
   m_Layer: 0
   m_Name: Girl_Collider
   m_TagString: Untagged
@@ -6417,7 +6449,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -7184,6 +7216,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8211202199130016067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703857563946577282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3260601142872161961}
 --- !u!1 &5763187337431367696
 GameObject:
   m_ObjectHideFlags: 0

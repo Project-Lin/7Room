@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9201153915617692107}
   - component: {fileID: 7642528343191173313}
   - component: {fileID: 5398724108831070876}
+  - component: {fileID: 3565971471047800126}
   m_Layer: 0
   m_Name: triggle_Front
   m_TagString: Untagged
@@ -557,7 +558,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -577,6 +578,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: 28c70e0baaf1dfd4fbf728ac511e89cd, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!114 &3565971471047800126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863977223933668336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5398724108831070876}
 --- !u!1 &5927015812077171193
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +605,7 @@ GameObject:
   - component: {fileID: 8822150977708040774}
   - component: {fileID: 6593840250293012101}
   - component: {fileID: 3323554376091337103}
+  - component: {fileID: 905068338967630889}
   m_Layer: 0
   m_Name: triggle_Back
   m_TagString: Respawn
@@ -1198,7 +1214,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -1218,6 +1234,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &905068338967630889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927015812077171193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3323554376091337103}
 --- !u!1001 &2295697273066463063
 PrefabInstance:
   m_ObjectHideFlags: 0

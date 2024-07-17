@@ -4476,6 +4476,7 @@ GameObject:
   - component: {fileID: 5667769486614416618}
   - component: {fileID: 174185023292523565}
   - component: {fileID: 3857757869447101696}
+  - component: {fileID: 4510654288747764320}
   m_Layer: 0
   m_Name: Girl_Collider
   m_TagString: Untagged
@@ -9429,7 +9430,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -10870,6 +10871,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &4510654288747764320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778526490245158300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 801538278949309782}
 --- !u!1 &3840819000462619977
 GameObject:
   m_ObjectHideFlags: 0
@@ -12168,6 +12183,8 @@ GameObject:
   - component: {fileID: 6573696805411030631}
   - component: {fileID: 7528793436704090476}
   - component: {fileID: 2674851193065420545}
+  - component: {fileID: 8215180317422376090}
+  - component: {fileID: 4738322842948438163}
   m_Layer: 0
   m_Name: Animation_control
   m_TagString: Untagged
@@ -13215,7 +13232,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -13237,7 +13254,7 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -13704,6 +13721,35 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &8215180317422376090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5001477312037035719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6573696805411030631}
+--- !u!114 &4738322842948438163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5001477312037035719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e95858e6f8c0844ad340be6bba1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFsms:
+  - {fileID: 6573696805411030631}
+  button: {fileID: 0}
 --- !u!1 &5012923878914691552
 GameObject:
   m_ObjectHideFlags: 0
@@ -14587,6 +14633,7 @@ GameObject:
   - component: {fileID: 2890154658327252922}
   - component: {fileID: 63105107043376383}
   - component: {fileID: 2111750275744190029}
+  - component: {fileID: 5116641880191958283}
   m_Layer: 0
   m_Name: EnderRoom_Check
   m_TagString: Untagged
@@ -16270,7 +16317,7 @@ MonoBehaviour:
     handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -16302,6 +16349,20 @@ MonoBehaviour:
   TargetFSMs:
   - {fileID: 2850955856882098465}
   - {fileID: 2890154658327252922}
+  - {fileID: 63105107043376383}
+--- !u!114 &5116641880191958283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6241252467592192010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
   - {fileID: 63105107043376383}
 --- !u!1 &6296399575316659219
 GameObject:
@@ -37007,7 +37068,7 @@ PrefabInstance:
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 53.4
       objectReference: {fileID: 0}
     - target: {fileID: 1629277227152696706, guid: 0055832a3b5cff8419b62686405a991d,
         type: 3}
@@ -37834,7 +37895,7 @@ PrefabInstance:
     - target: {fileID: 8424343609075467183, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 53.4
       objectReference: {fileID: 0}
     - target: {fileID: 8424343609075467183, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}

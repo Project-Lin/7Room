@@ -467,6 +467,7 @@ GameObject:
   - component: {fileID: 8952392657255894566}
   - component: {fileID: 3526436955132102369}
   - component: {fileID: 509819038107598796}
+  - component: {fileID: 6115138305961049756}
   m_Layer: 0
   m_Name: Girl_Collider
   m_TagString: Untagged
@@ -5883,7 +5884,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -7142,6 +7143,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &6115138305961049756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498415440449083216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4144751125693206426}
 --- !u!1 &565179114711676805
 GameObject:
   m_ObjectHideFlags: 0

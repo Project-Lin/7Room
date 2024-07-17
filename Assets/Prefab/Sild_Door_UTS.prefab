@@ -132,6 +132,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 57288593290855799}
+    - targetCorrespondingSourceObject: {fileID: -8126575363595136504, guid: 4f212837541c475438b2227ecbe4f076,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3675713600084539732}
+    - targetCorrespondingSourceObject: {fileID: -8126575363595136504, guid: 4f212837541c475438b2227ecbe4f076,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8621512971311270993}
     - targetCorrespondingSourceObject: {fileID: -5672779171163736225, guid: 4f212837541c475438b2227ecbe4f076,
         type: 3}
       insertIndex: -1
@@ -1666,7 +1674,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -1675,7 +1683,7 @@ MonoBehaviour:
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
     handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
@@ -1713,6 +1721,34 @@ Animation:
   m_AnimatePhysics: 0
   m_UpdateMode: 0
   m_CullingType: 0
+--- !u!114 &3675713600084539732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2707019680580514502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5741437362927603129}
+--- !u!114 &8621512971311270993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2707019680580514502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5741437362927603129}
 --- !u!1 &4224850417874661923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8068073526183931155, guid: 4f212837541c475438b2227ecbe4f076,

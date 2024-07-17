@@ -1771,6 +1771,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4968681151715133121}
+    - targetCorrespondingSourceObject: {fileID: -8126575363595136504, guid: 4f212837541c475438b2227ecbe4f076,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6970375524954519207}
     - targetCorrespondingSourceObject: {fileID: -5672779171163736225, guid: 4f212837541c475438b2227ecbe4f076,
         type: 3}
       insertIndex: -1
@@ -4972,7 +4976,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -5256,6 +5260,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &6970375524954519207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981618434925211629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 333027947928339882}
 --- !u!1 &8211342713044823816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8068073526183931155, guid: 4f212837541c475438b2227ecbe4f076,

@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 2569756243186003840}
   - component: {fileID: 814384421210753305}
   - component: {fileID: 6641761713088119322}
+  - component: {fileID: 7794985116642987437}
   m_Layer: 0
   m_Name: EnderRoom_Check
   m_TagString: Untagged
@@ -2043,7 +2044,7 @@ MonoBehaviour:
     handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -2075,6 +2076,20 @@ MonoBehaviour:
   TargetFSMs:
   - {fileID: 2258212604786153777}
   - {fileID: 2569756243186003840}
+  - {fileID: 814384421210753305}
+--- !u!114 &7794985116642987437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922638911744325846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
   - {fileID: 814384421210753305}
 --- !u!1 &960098960197250854
 GameObject:
@@ -3199,6 +3214,8 @@ GameObject:
   - component: {fileID: 1103614144834309613}
   - component: {fileID: 302530930986268001}
   - component: {fileID: 7692600463692361357}
+  - component: {fileID: 8278525674091834830}
+  - component: {fileID: 3627397647167697458}
   m_Layer: 0
   m_Name: Animation_control
   m_TagString: Untagged
@@ -4246,7 +4263,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -4268,7 +4285,7 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -4735,6 +4752,35 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &8278525674091834830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938392835005457789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 1103614144834309613}
+--- !u!114 &3627397647167697458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938392835005457789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e95858e6f8c0844ad340be6bba1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFsms:
+  - {fileID: 1103614144834309613}
+  button: {fileID: 0}
 --- !u!1 &1952547910379349728
 GameObject:
   m_ObjectHideFlags: 0
@@ -10182,6 +10228,7 @@ GameObject:
   - component: {fileID: 3522106439003820319}
   - component: {fileID: 1648689819728168057}
   - component: {fileID: 5846745763524910041}
+  - component: {fileID: 1285008637478147301}
   m_Layer: 0
   m_Name: Girl_Collider
   m_TagString: Untagged
@@ -15135,7 +15182,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -16576,6 +16623,20 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &1285008637478147301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904442310076802314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6507490017569698091}
 --- !u!1 &6942706004090908112
 GameObject:
   m_ObjectHideFlags: 0
