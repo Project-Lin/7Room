@@ -366,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 6385639170244422342, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: m_Name
-      value: Scenes_Wrong_09
+      value: Scenes_Wrong_09_Sword
       objectReference: {fileID: 0}
     - target: {fileID: 6436832480072015696, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
