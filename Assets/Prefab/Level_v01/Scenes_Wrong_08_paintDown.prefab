@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3984470342856803718}
   - component: {fileID: 1741855711400747427}
   - component: {fileID: 493929695235444313}
+  - component: {fileID: 5949916242245773029}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -693,7 +694,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -710,7 +711,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -729,7 +730,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &493929695235444313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,7 +1464,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1480,7 +1481,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -1499,7 +1500,22 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &5949916242245773029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6985002685262669302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 1741855711400747427}
+  - {fileID: 493929695235444313}
 --- !u!1001 &7152014262224654567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1554,6 +1570,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2674851193065420545, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846145287432849936, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: fsm.preprocessed
       value: 0
@@ -1621,7 +1642,7 @@ PrefabInstance:
     - target: {fileID: 3854226037899291192, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3854226037899291192, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
@@ -1746,7 +1767,7 @@ PrefabInstance:
     - target: {fileID: 4952186068596425462, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4952186068596425462, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
@@ -1963,12 +1984,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -27.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7427808005677468027, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7521689196630037351, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7528793436704090476, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951373621402433790, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: fsm.preprocessed
       value: 0
@@ -1981,6 +2012,16 @@ PrefabInstance:
     - target: {fileID: 8411400405599679929, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501162906881866428, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599129688172760298, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8831584444138856322, guid: 83389b026a2894c4b8cddb318d3e4d3c,
