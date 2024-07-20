@@ -19,6 +19,7 @@ MonoBehaviour:
     - 550b1187725d4884ea6af17583885d75
     - 9eef205e6bd868745861d8c1e63e1afa
     - 2acffb991d5cdd847a17c687b5b2d33c
+    - e19078eaf56eb5242966fb66ffcc9e3b
     values:
     - goDatas_byGlobalId:
         keys:
@@ -44,3 +45,6 @@ MonoBehaviour:
         values:
         - colorIndex: 0
           iconNameOrGuid: AudioListener Icon
+    - goDatas_byGlobalId:
+        keys: []
+        values: []
