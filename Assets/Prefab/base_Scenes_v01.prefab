@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 6613376443983754734}
   - component: {fileID: 8552183259035854532}
   - component: {fileID: 8516656493511998462}
+  - component: {fileID: 7682411349858680186}
   m_Layer: 0
   m_Name: Currt
   m_TagString: Correct
@@ -463,7 +464,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -499,7 +500,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &7682411349858680186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2604483971608610805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 8516656493511998462}
 --- !u!1 &3603645003390259903
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +687,7 @@ GameObject:
   - component: {fileID: 735546689110390129}
   - component: {fileID: 12041407808410829}
   - component: {fileID: 8376614808029727586}
+  - component: {fileID: 6574664705378287693}
   m_Layer: 0
   m_Name: wrunt
   m_TagString: Wrong
@@ -1073,7 +1089,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1109,7 +1125,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &6574664705378287693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880219145093744302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 8376614808029727586}
 --- !u!1001 &3049335837465998686
 PrefabInstance:
   m_ObjectHideFlags: 0

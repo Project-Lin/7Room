@@ -20,6 +20,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: Height
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Width
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: Level
@@ -90,6 +102,12 @@ MonoBehaviour:
       value: 0
     - useVariable: 1
       name: FirstOpen
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: isFullscreen
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -197,6 +215,13 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
+    - useVariable: 1
+      name: NEW_Set
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 781021974697814488, guid: 7090835195f82d44b8430bcce7bdaa7d,
+        type: 3}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -217,7 +242,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - destory
   - spowan_front
@@ -245,3 +270,4 @@ MonoBehaviour:
   - CloseSetting
   - OpenSeeting
   - NEW_CheckPlayer
+  - StorRES

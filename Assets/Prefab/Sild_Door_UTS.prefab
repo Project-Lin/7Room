@@ -1683,7 +1683,7 @@ MonoBehaviour:
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
     handleTriggerEnter: 0
-    handleTriggerExit: 1
+    handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4099266715452274457}
   - component: {fileID: 967495652091338011}
   - component: {fileID: 5498336633811769126}
+  - component: {fileID: 1844925605475028129}
   m_Layer: 0
   m_Name: wrunt
   m_TagString: Wrong
@@ -420,7 +421,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -456,7 +457,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &1844925605475028129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723224488980926786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5498336633811769126}
 --- !u!1 &2105134112582532522
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +485,7 @@ GameObject:
   - component: {fileID: 6570599521010163914}
   - component: {fileID: 509178580465454664}
   - component: {fileID: 4595347459668716776}
+  - component: {fileID: 6970217038948189409}
   m_Layer: 0
   m_Name: Currt
   m_TagString: Correct
@@ -877,7 +893,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -913,7 +929,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &6970217038948189409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105134112582532522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4595347459668716776}
 --- !u!1 &5471063281049671282
 GameObject:
   m_ObjectHideFlags: 0
