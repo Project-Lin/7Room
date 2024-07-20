@@ -244,3 +244,4 @@ MonoBehaviour:
   - ChangeCameraPos
   - CloseSetting
   - OpenSeeting
+  - NEW_CheckPlayer
