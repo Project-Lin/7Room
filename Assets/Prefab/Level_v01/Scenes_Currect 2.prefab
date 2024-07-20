@@ -2211,7 +2211,7 @@ MonoBehaviour:
     handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -4466,7 +4466,7 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -5822,7 +5822,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -21167,7 +21167,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.063851
+      value: -11.087
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
@@ -21177,7 +21177,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.054441374
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}

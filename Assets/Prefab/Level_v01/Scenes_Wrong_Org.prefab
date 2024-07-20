@@ -13831,7 +13831,7 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
+    handleUiEvents: 1
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -15691,12 +15691,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetGameObject
+        - HutongGames.PlayMaker.Actions.SetGameObject
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 4d51cf04
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 4d51cf044d51cf04
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -15711,6 +15713,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 6385639170244422342}
+        - useVariable: 1
+          name: DirLight
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 8172232707743081861}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -15732,18 +15746,21 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001300000001000000
+        paramDataType: 130000001300000001000000130000001300000001000000
         paramName:
         - variable
         - gameObject
         - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
+        - variable
+        - gameObject
+        - everyFrame
+        paramDataPos: 000000000100000000000000020000000300000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
     - name: "\u72C0\u614B 3"
       description: 
       colorIndex: 0
@@ -17073,7 +17090,7 @@ MonoBehaviour:
     handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -38457,212 +38474,212 @@ PrefabInstance:
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[0].position.x
-      value: 100278.55
+      value: 278.54688
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[0].position.y
-      value: 100445.8
+      value: 445.79688
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[1].position.x
-      value: 100640.77
+      value: 640.77344
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[1].position.y
-      value: 100432.96
+      value: 432.96094
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[2].position.x
-      value: 100751.945
+      value: 751.9453
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[2].position.y
-      value: 100522.13
+      value: 522.1328
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[3].position.x
-      value: 100621.68
+      value: 621.6797
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[3].position.y
-      value: 100668.88
+      value: 668.8828
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[4].position.x
-      value: 100889.445
+      value: 889.4453
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[4].position.y
-      value: 100663.14
+      value: 663.1406
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[5].position.x
-      value: 101137.945
+      value: 1137.9453
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[5].position.y
-      value: 100352.45
+      value: 352.45312
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[6].position.x
-      value: 101383.06
+      value: 1383.0625
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[6].position.y
-      value: 100341.125
+      value: 341.125
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[7].position.x
-      value: 102102.35
+      value: 2102.3516
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[7].position.y
-      value: 100525.32
+      value: 525.3203
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[8].position.x
-      value: 101469.74
+      value: 1469.7422
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[8].position.y
-      value: 100189.26
+      value: 189.25781
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[9].position.x
-      value: 101707.555
+      value: 1707.5547
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[9].position.y
-      value: 100191.164
+      value: 191.16406
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[10].position.x
-      value: 101956.57
+      value: 1956.5703
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[10].position.y
-      value: 100184.97
+      value: 184.96875
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[11].position.x
-      value: 102424.42
+      value: 2424.4219
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[11].position.y
-      value: 100101.78
+      value: 101.78125
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[12].position.x
-      value: 102386.38
+      value: 2386.3828
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[12].position.y
-      value: 100197.89
+      value: 197.89062
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[13].position.x
-      value: 101424.305
+      value: 1424.3047
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[13].position.y
-      value: 100287.37
+      value: 287.3672
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[14].position.x
-      value: 102093.91
+      value: 2093.9062
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[14].position.y
-      value: 100368.17
+      value: 368.17188
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[15].position.x
-      value: 101905
+      value: 1905
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[15].position.y
-      value: 100362
+      value: 362
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[16].position.x
-      value: 100472.07
+      value: 472.0703
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[16].position.y
-      value: 100510.7
+      value: 510.70312
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[17].position.x
-      value: 100853.17
+      value: 853.1719
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[17].position.y
-      value: 100252.79
+      value: 252.78906
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[18].position.x
-      value: 100060
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[18].position.y
-      value: 100446
+      value: 446
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[19].position.x
-      value: 102341.664
+      value: 2341.664
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[19].position.y
-      value: 100358.125
+      value: 358.125
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[20].position.x
-      value: 102569.586
+      value: 2569.586
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
       propertyPath: fsm.states.Array.data[20].position.y
-      value: 100378.445
+      value: 378.4453
       objectReference: {fileID: 0}
     - target: {fileID: 7415805461655233415, guid: 0a5a6400569802245b4d8174add8cb98,
         type: 3}
@@ -42803,17 +42820,25 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.FindGameObject
         - HutongGames.PlayMaker.Actions.EnableFSM
+        - HutongGames.PlayMaker.Actions.DestroyObject
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 786b390287aa9700
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000007000000
+        actionHashCodes: 786b390287aa97009ff80c02
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: NEW_Numb_Geo
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: DirLight
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -42856,7 +42881,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -42865,6 +42896,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -42882,7 +42919,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001300000014000000120000001100000011000000
+        paramDataType: 12000000120000001300000014000000120000001100000011000000130000000f00000011000000
         paramName:
         - objectName
         - withTag
@@ -42891,8 +42928,11 @@ MonoBehaviour:
         - fsmName
         - enable
         - resetOnExit
-        paramDataPos: 00000000010000000000000000000000020000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - gameObject
+        - delay
+        - detachChildren
+        paramDataPos: 00000000010000000000000000000000020000000000000001000000010000000000000002000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: "\u72C0\u614B 10"
       description: 
       colorIndex: 0
@@ -47867,7 +47907,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.063851
+      value: -11.087
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
@@ -47877,7 +47917,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.054441374
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d95bf88fa5647da43b9aa3af157f280c,
         type: 3}
