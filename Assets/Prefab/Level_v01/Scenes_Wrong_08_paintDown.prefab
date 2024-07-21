@@ -694,7 +694,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1583,6 +1583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: fsm.preprocessed
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850955856882098465, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.events.Array.size
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2890154658327252922, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
