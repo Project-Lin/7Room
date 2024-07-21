@@ -1119,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 224949534694511820, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224949534694511820, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
@@ -1149,7 +1149,7 @@ PrefabInstance:
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 53.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
@@ -1317,7 +1317,7 @@ PrefabInstance:
     - target: {fileID: 6989261675873597155, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6989261675873597155, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
@@ -1362,7 +1362,7 @@ PrefabInstance:
     - target: {fileID: 8433088279058060895, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433088279058060895, guid: 00fb93f398d6ab646b81586940087692,
         type: 3}
@@ -3298,17 +3298,25 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.FindGameObject
         - HutongGames.PlayMaker.Actions.EnableFSM
+        - HutongGames.PlayMaker.Actions.DestroyObject
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 786b390287aa9700
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000007000000
+        actionHashCodes: 786b390287aa97009ff80c02
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: NEW_Numb_Geo
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: DirLight
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3351,7 +3359,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -3360,6 +3374,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -3377,7 +3397,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001300000014000000120000001100000011000000
+        paramDataType: 12000000120000001300000014000000120000001100000011000000130000000f00000011000000
         paramName:
         - objectName
         - withTag
@@ -3386,8 +3406,11 @@ MonoBehaviour:
         - fsmName
         - enable
         - resetOnExit
-        paramDataPos: 00000000010000000000000000000000020000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - gameObject
+        - delay
+        - detachChildren
+        paramDataPos: 00000000010000000000000000000000020000000000000001000000010000000000000002000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: "\u72C0\u614B 10"
       description: 
       colorIndex: 0
