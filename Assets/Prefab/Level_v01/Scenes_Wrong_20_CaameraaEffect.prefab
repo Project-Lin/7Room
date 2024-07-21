@@ -211,8 +211,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 449
-        y: 96
+        x: 528
+        y: 82
         width: 120.44
         height: 32
       isBreakpoint: 0
@@ -341,8 +341,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerEnter: 1
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
