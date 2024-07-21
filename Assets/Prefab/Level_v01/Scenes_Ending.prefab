@@ -733,7 +733,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u72C0\u614B 4"
+        toState: "\u72C0\u614B 2"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -988,8 +988,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 644
-        y: 100
+        x: 633
+        y: 202
         width: 100
         height: 32
       isBreakpoint: 0
