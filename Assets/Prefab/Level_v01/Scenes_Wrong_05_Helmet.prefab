@@ -28,6 +28,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.194
       objectReference: {fileID: 0}
+    - target: {fileID: 2850955856882098465, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.events.Array.size
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3241284285006698532, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: m_AnchorMax.y

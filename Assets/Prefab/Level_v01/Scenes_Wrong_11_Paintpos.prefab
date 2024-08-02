@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2850955856882098465, guid: 83389b026a2894c4b8cddb318d3e4d3c,
+        type: 3}
+      propertyPath: fsm.events.Array.size
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2890154658327252922, guid: 83389b026a2894c4b8cddb318d3e4d3c,
         type: 3}
       propertyPath: fsm.preprocessed

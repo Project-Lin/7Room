@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: e19078eaf56eb5242966fb66ffcc9e3b
   - enabled: 1
-    path: Assets/Scenes/trial.unity
-    guid: 9ecfa6cd463cc18499f286cd7622f7e1
+    path: Assets/Scenes/Animation 2.unity
+    guid: 2acffb991d5cdd847a17c687b5b2d33c
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 8687e3c959f51ca44a5f130a05dde17d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
